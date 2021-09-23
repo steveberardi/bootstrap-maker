@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "parcel ./src/index.html --port 3000",
     "prebuild": "npx rimraf build",
-    "build": "parcel build --public-url ./ ./src/index.html --experimental-scope-hoisting --out-dir build",
+    "build": "parcel build --public-url ./ ./src/index.html --experimental-scope-hoisting --no-content-hash --out-dir build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
