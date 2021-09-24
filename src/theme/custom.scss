@@ -1,0 +1,31 @@
+/*  Custom SCSS
+---------------------------------------------
+    define your custom theme colors, etc here
+    or import from other files
+
+    Example:
+
+    @import "variables";
+
+    $input-bg: #faf5eb;
+    $headings-font-weight: 600;
+    $btn-border-radius: 10px;
+
+---------------------------------------------
+*/
+
+@import "variables";
+
+$body-color: $dark;
+$body-bg: $light;
+
+$input-bg: #faf5eb;
+
+$headings-font-weight: 600;
+
+$min-contrast-ratio: 3;
+
+$btn-border-radius: 10px;
+
+// Import bootstrap last
+@import "~bootstrap/scss/bootstrap";
